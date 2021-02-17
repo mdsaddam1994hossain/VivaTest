@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+ <head>
+       <link rel="stylesheet" href="index.css">
+	<title>Image Slider </title>
+ </head>
+ <body>
+	
+    <h1 id="demo"> This is Bangladesh </h1>
+
+    <!-- <h1> hello </h1>
+
+	<button class="myButton" >button1</button>
+        <button class="myButton" >button2</button>
+        <button class="myButton" >button3</button> -->
+	
+	<script>
+
+        var x = document.getElementById("demo");
+         x.addEventListener("mouseover", function () {
+           x.classList.add("myCalsss");
+        });
+
+        x.addEventListener("mouseout", function () {
+           x.classList.remove("myCalsss");
+        });
+
+        // var len = document.querySelectorAll(".myButton").length;
+        
+        // for(var i= 0 ; i < len; i++){
+        //         document.querySelectorAll(".myButton")[i].addEventListener("mouseover", function () {
+        //             var text = this.innerHtml;
+        //               document.querySelector("h1").innerHtml = text + " is clicked ";
+        //         });
+
+        // }
+	
+	</script>
+	
+ </body>
+</html>

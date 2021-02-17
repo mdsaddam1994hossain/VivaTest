@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>Prime Number Check</title>
+ </head>
+ <body>
+	<h4>Prime Number Test</h4>
+	<input type="number" id="num">
+	<button type="submit" onclick="myFunction()">submit</button>
+	
+	
+	
+	<script>
+	
+	
+		
+		
+		
+		function myFunction(){
+		
+		var numb = document.getElementById('num').value;
+		var isprime = true;
+		
+		
+			for( i = 2; i<numb - 1 ;i++){
+		
+			if( numb % i == 0){
+				isprime = false;
+				break;
+			}
+		
+		
+		}
+		if(isprime== true){
+				alert("this is prime number ")
+			}else{
+				alert("this is not prime number")
+			}
+		
+		}
+	
+	
+	
+	
+	
+	</script>
+	
+ </body>
+</html>
