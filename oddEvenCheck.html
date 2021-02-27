@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           Plindromic check
+        </title>
+    </head>
+    <body>
+        <h1>Odd Even check</h1>
+        <input type="text" id="demo">
+        <button type="button" onclick="myFunction()">Check</button>
+
+
+        <script>
+         
+           function myFunction(){ 
+            var  x= document.getElementById('demo').value;
+        
+            //   if( x % 2 == 0){
+            //       alert("this is even number")
+            //   }else{
+            //       alert(" this is odd number ")
+            //   }
+
+            x > 0  ? alert("psitive number") : x < 0  ? alert("nagitive number") : alert("Zero");
+
+
+           
+           }
+
+           function myFunctionTwo(){
+               alert("2nd function is call ");
+           }
+
+           var saddam = { hand: "two hand",leg : "two leg"};
+
+           alert(saddam.leg);
+           
+        </script>
+    </body>
+</html>

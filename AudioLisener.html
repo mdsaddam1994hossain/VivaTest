@@ -1,0 +1,32 @@
+
+
+
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>AudioLisener</title>
+   
+ </head>
+ <body>
+
+    <button class="myclass"> a </button>
+    <button class="myclass"> b </button>
+    <button class="myclass"> c </button>
+
+    <script>
+
+for(var i =0; i<3;i++){
+
+   document.querySelectorAll(".myclass")[i].addEventListener(onclick(),function(){
+
+      var x = this.innerHTML;
+      alert(x);
+
+})
+
+}
+      
+    </script>
+
+ </body>
+ </html>

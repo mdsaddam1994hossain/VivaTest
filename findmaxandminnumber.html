@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+           find max and min number
+        </title>
+    </head>
+    <body>
+
+        <p id="maxdemo"> </p>
+        <p id="mindemo"> </p>
+        <p id="sumdemo"> </p>
+
+        <script>
+
+            var x = new Array();
+
+           for(var i =0;i<5;i++){
+               x[i] = parseInt(prompt("Enter a number : "));
+           }
+
+            var maxvalue = 0;
+            var minvalue = 0;
+            var sum = 0;
+            var min = x[0];
+            var max = x[0];
+
+            for(var i = 0; i <5;i++){
+                sum = sum + x[i];
+                if(min > x[i] ){
+                    min = x[i];
+                }
+                if(max < x[i] ){
+                    max = x[i];
+                }
+
+            }
+
+           document.write("sum is "+ sum+"<br>");
+           document.write("min is "+ min+"<br>");
+           document.write("max is "+ max);
+
+
+        </script>
+   </body>
+   </html>
